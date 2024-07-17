@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.calculator {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.display {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: right;
+  width: 250px;
+  height: 40px;
+}
+#display2 {
+  margin-bottom: -5px;
+  color: orange;
+  font-size: 12px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d0d0d0;
+}
+.clear {
+  background-color: #f44336;
+  color: white;
+  grid-column: span 4;
+}
+
+.clear:hover {
+  background-color: #d32f2f;
+}
+input::placeholder {
+  color: white;
+  opacity: 0.5; /* Firefox */
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
