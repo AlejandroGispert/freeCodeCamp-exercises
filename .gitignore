@@ -1,9 +1,9 @@
-# Ignore node_modules in root and all subdirectories
-node_modules
+ node_modules
 **/node_modules
 
-
-
+# Ignore .DS_Store files everywhere
 .DS_Store
 **/.DS_Store
-   
+
+# Ignore any potential nested package-lock.json files
+**/package-lock.json
