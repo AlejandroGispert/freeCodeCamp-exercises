@@ -1,0 +1,25 @@
+.quote-box {
+  width: 500px;
+  height: 400px;
+}
+
+#text {
+  color: white;
+  text-align: center;
+}
+
+.text-bordered {
+  color: white; /* Text color */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000; /* Border color and thickness */
+}
+
+.text-bordered2 {
+  color: white; /* Text color */
+  text-shadow: -1px -1px 0 #8e8c8c, 1px -1px 0 #8e8c8c, -1px 1px 0 #8e8c8c,
+    1px 1px 0 #8e8c8c; /* Border color and thickness */
+}
+
+.smooth-bg-change {
+  transition: 1s ease;
+}
